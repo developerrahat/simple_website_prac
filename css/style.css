@@ -1,0 +1,185 @@
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.max-width{
+    max-width: 1280px;
+    margin: auto;    
+}
+/* Header Section css */
+.header-area{
+    background: #00001a;
+}
+.header-left{
+    width: 30%;
+    float: left;
+}
+.header-left a,h2{
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    transition: .4s;
+}
+.header-left a,h2:hover{
+    color: blue;
+}
+.header-right{
+    width: 70%;
+    float: right;
+}
+.header-right ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.header-right ul li{
+    display: inline-block;
+    
+}
+.header-right ul li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 20px;
+	line-height:33px;
+    transition: .4s;
+}
+.header-right ul li a:hover{
+    color: gray;
+}
+
+
+/* Banner Section CSs */
+.banner-section{
+    background: linear-gradient(rgba(5, 255, 59),rgba(5,255,255));
+      
+}
+.content-left{
+    width: 45%;
+    float: left;
+    padding:150px 0 ;
+    
+}
+.content-left h6{
+    color: red;
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+.content-left h1{}
+.content-left span{
+    color: red;
+}
+.h-button{
+    background: white;
+    padding:6px 15px;
+    font-size: 14px;
+    border: 0;
+    transition: .4s;
+
+}
+.h-button:hover{
+    background: aqua;
+    box-shadow: 0 10px 10px 0px rgba(8, 1, 32, .4);
+
+}
+.content-right{
+    width:55%;
+    float: right;
+
+}
+
+/* Service Section Css */
+
+.service-section{
+    position: relative;
+    bottom:80px;
+}
+
+.service-item{
+    width: 31.33%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+    background: azure;
+    text-align: center;
+    margin: 0 1%;
+    box-shadow: 1px 1px 30px 3px rgb(0, 1, 22, .3);
+    border-radius: 10px;
+    border-top: 6px solid black;
+    transition: .4s;
+
+}
+.service-item h3{
+    font-size:27px;
+}
+.red{
+    background: red;
+    color: aliceblue;
+}
+.service-item:hover{
+    background: darkblue;
+    border-top:6px solid red ;
+    color: white;
+}
+
+/* My Skill Section css */
+
+.title{
+    text-align: center;
+}
+.my-skill-sec{
+    background: aliceblue;
+    padding: 70px 0;
+}
+.skill-left{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.skill-left .w-80{
+    width:80%;
+    
+}
+.whatido{
+    width: 50%;
+    float: right;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.list-skill{}
+.list-skill ul{
+    list-style: none;
+    
+}
+.list-skill ul li{
+    margin: 15px 0;
+}
+.list-skill ul li::before{
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: red;
+    margin-right: 12px;
+    
+    
+
+}
+
+.where-work img{
+    max-width:100px;
+}
+
+.footer{
+    background: #00001a;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+.footer p{
+    font-size: 17px;
+    
+}
